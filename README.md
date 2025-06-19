@@ -30,7 +30,7 @@ relevant PR and ticket information.
 ```yaml
 steps:
   - name: Send Slack Notification
-    uses: BiblioNexusStudio/github-action-slack-notify-build@main
+    uses: eten-tech/github-action-slack-notify-build@main
     with:
       channel_id: "CHANNEL_ID"
       status: "SUCCESS"
